@@ -43,11 +43,11 @@ To run this project locally:
 
 ## Contributors
 
-- (osamalmezouari)[https://github.com/osamalmezouari]
+- [osamalmezouari](https://github.com/osamalmezouari)
 
 ## License
 
-This project is licensed under (john smilga)[https://github.com/john-smilga].
+This project is licensed under [john smilga](https://github.com/john-smilga)
 
 
 
