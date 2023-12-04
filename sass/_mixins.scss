@@ -1,0 +1,11 @@
+@mixin Flex-b{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin Color-and-Cursor {
+    color: #33E3FF;
+    cursor: pointer;
+}

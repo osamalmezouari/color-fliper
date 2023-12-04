@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Gabarito";
+  font-size: 12px;
+}
+
+.parent {
+  box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+  background-color: white;
+}
+.parent .container {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.parent .container > :nth-child(1) {
+  color: #33E3FF;
+  cursor: pointer;
+}
+.parent .container > :nth-child(2) {
+  width: 150px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.parent .container > :nth-child(2) :nth-child(1):hover {
+  color: #33E3FF;
+  cursor: pointer;
+}
+.parent .container > :nth-child(2) :nth-child(2):hover {
+  color: #33E3FF;
+  cursor: pointer;
+}
+
+.bg-body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #F1f5f8;
+  top: 0px;
+  z-index: -1;
+  position: absolute;
+}
+.bg-body > :nth-child(1) {
+  padding: 10px 30px;
+  font-size: 30px;
+  background-color: rgb(36, 36, 36);
+  color: white;
+  border: solid 0px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 7px;
+}
+.bg-body > :nth-child(1) > :nth-child(1) {
+  display: inline-block;
+}
+.bg-body > :nth-child(1) > :nth-child(2) {
+  display: inline-block;
+  color: #33E3FF;
+}
+.bg-body > :nth-child(2) {
+  width: max-content;
+  padding: 10px 30px;
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid rgb(36, 36, 36);
+  background-color: transparent;
+  border-radius: 10px;
+  letter-spacing: 7px;
+}
+.bg-body > :nth-child(2):hover {
+  color: white;
+  background-color: rgb(36, 36, 36);
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
